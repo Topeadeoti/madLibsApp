@@ -7,8 +7,20 @@ let originalStory = `Once upon a time, there was a ${userInputs[0]} named ${user
 //output originalstory
 console.log(originalStory);  
 
-//record the number of unique replacement
+//record the number of unique re"Added declarations of mad-lib replacement variables""Added declarations of mad-lib replacement variables"placement
 let numberOfQuestions = "10";
+
+//user prompts
+let questionArray = [ prompt("Enter a verb"),prompt("Enter a noun"),prompt("Enter a adjective")];
+
+//looping to store userInputs
+for(let i = 0; i <= questionArray.length; i++){
+  console.log(i);
+  
+}
+
+
+//console.log(questionArray);
 
 
 
