@@ -13,10 +13,12 @@ let numberOfQuestions = "10";
 //user prompts
 let questionArray = [ prompt("Enter a verb"),prompt("Enter a noun"),prompt("Enter a adjective")];
 
+//question counter 
+let questionCounter=0;
 //looping to store userInputs
 for(let i = 0; i <= questionArray.length; i++){
   console.log(i);
-  
+  questionCounter++;
 }
 
 
